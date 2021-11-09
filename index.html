@@ -4,27 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="javascript.js" defer></script>
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
+
+    <div class="all">
+        <div class="buttons">
+            <button id="rock">ROCK</button>
+            <button id="paper">PAPER</button>
+            <button id="scissors">SCISSORS</button>
+        </div>
+
+        <div class="lower">
+            <div class="score">score</div>
+            <div class="result">result</div>
+        </div>
+    </div>
+    
     <script>
 
-                // Add these to playRound to update variable from there. 
+                
                 let playerScore = 0;
                 let compScore = 0;
 
             function game() {
 
                 let round = 0;
-
-                console.log("HIYO");
-                
+                        /*  ## Temporarily removing this code ##
                 while (round < 5){
                     console.log("Round: " + round);
                     playRound();
                     console.log(playerScore + "    " + compScore);
                     round++;
                 }
+                        */  
 
                 if (playerScore > compScore) {
                     console.log("You win! Your score was " + playerScore + ", which beats " + compScore);
