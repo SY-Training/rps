@@ -57,7 +57,10 @@ body {
     border-style: solid;
     border-radius: 25px;
     border-color: red;
-
+    gap: 20px;
+    display: flex;
+    align-content: center;
+    justify-content:center;
 }
 
 .result {
