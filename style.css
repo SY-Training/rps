@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    flex-direction: column; 
+    padding: 50px;
+    background-color: #E1FAFD;
+
+}
+
+.all {
+    padding-top: 30px;
+    background-color: rgba(33, 41, 42, 0.54);
+    border-radius: 25px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+/*  #####  BUTTONS ##### */
+
+#rock {
+    padding: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    background-color:rgba(193, 212, 214, 0.84);
+}
+
+#paper {
+    padding: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    background-color:rgba(193, 212, 214, 0.84);
+}
+
+#scissors {
+    padding: 30px;
+    border-radius: 10px;
+    border-style: solid;
+    background-color:rgba(193, 212, 214, 0.84);
+}
+
+ /* ##### SCORES ##### */
+
+.lower {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: flex-end;
+    gap: 20px;
+    padding: 50px;
+}
+
+.score {
+    padding: 30px;
+    font-size: 50px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: red;
+    gap: 20px;
+    display: flex;
+    align-content: center;
+    justify-content:center;
+}
+
+.result {
+    padding: 30px;
+    font-size: 50px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: red;
+}
