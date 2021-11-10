@@ -48,6 +48,7 @@ body {
     flex-direction: row;
     justify-content: space-around;
     align-self: flex-end;
+    gap: 20px;
     padding: 50px;
 }
 
